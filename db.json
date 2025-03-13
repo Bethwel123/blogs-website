@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "johndoe",
+      "email": "john@example.com",
+      "password": "hashedpassword",
+      "bio": "Tech enthusiast and writer",
+      "avatar": "https://avatars.githubusercontent.com/u/1",
+      "joinDate": "2023-01-01T00:00:00Z",
+      "following": [],
+      "followers": []
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Getting Started with React",
+      "content": "<h2>Introduction to React</h2><p>React is a powerful JavaScript library...</p>",
+      "userId": 1,
+      "timestamp": "2023-05-20T10:00:00Z",
+      "likes": 43,
+      "image": "https://example.com/react-image.jpg",
+      "tags": [
+        "react",
+        "javascript",
+        "web development"
+      ],
+      "category": "Programming",
+      "readTime": "5 min read",
+      "featured": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "blogId": 1,
+      "userId": 1,
+      "content": "Great article! Very informative.",
+      "timestamp": "2023-05-20T11:00:00Z",
+      "likes": 5
+    },
+    {
+      "id": "7d18",
+      "blogId": 1,
+      "userId": 1,
+      "content": "Heey",
+      "timestamp": "2025-03-13T17:45:42.313Z"
+    }
+  ],
+  "likes": [
+    {
+      "id": "1",
+      "blogId": 1,
+      "userId": 1,
+      "timestamp": "2023-05-20T12:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Programming",
+      "description": "Articles about programming and software development",
+      "image": "https://example.com/programming.jpg"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1",
+      "name": "react",
+      "count": 15
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "1",
+      "userId": 1,
+      "blogId": 1,
+      "timestamp": "2023-05-20T13:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "1",
+      "userId": 1,
+      "type": "like",
+      "content": "Someone liked your post",
+      "read": false,
+      "timestamp": "2023-05-20T14:00:00Z"
+    }
+  ]
+}
